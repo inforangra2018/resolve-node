@@ -1,0 +1,23 @@
+{
+  "name": "resolve-node.now.sh",
+  "version": "1.0.0",
+  "description": "API endpoint to resolve an arbitrary Node.js version with semver support",
+  "main": "index.js",
+  "dependencies": {
+    "micro": "^9.0.2",
+    "node-fetch": "^2.6.1",
+    "semver": "^5.4.1"
+  },
+  "scripts": {
+    "start": "micro",
+    "test": "ava"
+  },
+  "author": "Nathan Rajlich <nate@zeit.co>",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "fetch-mock": "^7.2.5",
+    "proxyquire": "^2.1.0",
+    "test-listen": "^1.1.0"
+  }
+}
